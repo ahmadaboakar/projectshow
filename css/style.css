@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+}
+main {
+    width: 100%;
+    min-height: 100vh;
+    padding: 4rem 0;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 2rem;
+}
+header h1 {
+    padding-bottom: 1rem;
+}
+.content {
+    width: 100%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+}
+.content .parent {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    gap: 10px;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-template-rows: repeat(5, 350px);
+}
+.parent .child{
+    height: 100%;
+    border: 5px solid #838383;
+}
+.child a {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+.child span {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.child:hover span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0080ff89;
+}
+i {
+    font-size: 50px;
+    color: white;
+}
+.child1 {
+    background-image: url('/images/Screenshot\ \(148\).png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.child2 {
+    background-image: url('/images/Screenshot\ 2023-03-29\ 100211.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.child3 {
+    background-image: url('/images/Screenshot\ \(145\).png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.child4 {
+    background-image: url('/images/Screenshot\ \(147\).png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.child5 {
+    background-image: url('/images/Screenshot\ \(146\).png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.child6 {
+    background-image: url('/images/Screenshot\ \(149\).png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
