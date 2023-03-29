@@ -34,7 +34,7 @@ header h1 {
     gap: 10px;
     align-items: center;
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-    grid-template-rows: repeat(5, 350px);
+    grid-template-rows: repeat(6, 350px);
 }
 .parent .child{
     height: 100%;
@@ -62,37 +62,37 @@ i {
     color: white;
 }
 .child1 {
-    background-image: url('/images/Screenshot\ \(148\).png');
+    background-image: url('/projectshow/images/Screenshot\ \(148\).png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 .child2 {
-    background-image: url('/images/Screenshot\ 2023-03-29\ 100211.png');
+    background-image: url('/projectshow/images/Screenshot\ 2023-03-29\ 100211.png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 .child3 {
-    background-image: url('/images/Screenshot\ \(145\).png');
+    background-image: url('/projectshow/images/Screenshot\ \(145\).png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 .child4 {
-    background-image: url('/images/Screenshot\ \(147\).png');
+    background-image: url('/projectshow/images/Screenshot\ \(147\).png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 .child5 {
-    background-image: url('/images/Screenshot\ \(146\).png');
+    background-image: url('/projectshow/images/Screenshot\ \(146\).png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 .child6 {
-    background-image: url('/images/Screenshot\ \(149\).png');
+    background-image: url('/projectshow/images/Screenshot\ \(149\).png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
